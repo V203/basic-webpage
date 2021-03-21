@@ -70,16 +70,12 @@ margin-right: auto;
     margin-left: auto; 
     
 }
-p{
-    margin-top:  0%;
-    padding-top: 0%;
-    padding-right: 1%;
-    margin-right: 1%;
-}
+
 
 /*div contents of historical places*/
 .cityhall-content{
     width: 70%;
+    height: auto;
     display :flex ;
     flex-flow: row;
 }
@@ -195,18 +191,26 @@ p{
     .master-container{
         width: 100%;
         flex-flow: column;
+        margin-left: auto;
+        margin-right: auto;
     }
     .castle-container{
-        flex-flow: column-reverse;
-        width: 100%;
+        flex-flow: row;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .museum-container{
-        width: 100%;
-        flex-flow: column-reverse;
+        width: 50%;
+        flex-flow: row-reverse;
+        margin-left: auto;
+        margin-right: auto;
     }
     .cityhall-container{
-        width: 100%;
-        flex-flow: column-reverse;
+        width: 50%;
+        flex-flow: row-reverse;
+        margin-left: auto;
+        margin-right: auto;
     }
     header{
         flex-flow: column;
@@ -217,6 +221,11 @@ p{
     }
     .st-master{
         flex-flow: column;
+    }
+    .headoftrade{
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
 }
@@ -250,13 +259,6 @@ h1{
     margin-right: auto;
 }
 
-p{
-    font-size: xx-small;
-    padding: 0em 1em 1em 1em;
-    
-    
-   
-}
 
 h6{
     text-align: center;
@@ -276,4 +278,10 @@ h4{
     margin-top: 0%;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+ul{
+    font-size: x-small;
+    margin-top: 0px;
+    padding-top: 0px;
 }
