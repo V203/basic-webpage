@@ -66,7 +66,8 @@ margin-right: auto;
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-
+    margin-top: 0px;
+    padding-top: 0px;
     margin-left: auto; 
     
 }
@@ -74,20 +75,24 @@ margin-right: auto;
 
 /*div contents of historical places*/
 .cityhall-content{
-    width: 70%;
+
+    margin-top: 0px;
+    padding-top: 0px;
     height: auto;
     display :flex ;
     flex-flow: row;
 }
 
 .castle-content-div{
-    width: 70%;
+    margin-top: 0px;
+    padding-top: 0px;
+
     display :flex ;
     flex-flow: row;
 
 }
 .museum-content-div{
-    width: 89%;
+
     display :flex ;
     flex-flow: row;
   
@@ -142,8 +147,9 @@ margin-right: auto;
     .tablemountain-img{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin: 1em;
+    width: auto;
+    height: auto;
+   
     }
     
     .img1-fave{
@@ -172,21 +178,64 @@ margin-right: auto;
         
     }
 
-    li{
-        font-size: xx-small;
-      
-        
-
-    }
+ 
     hr{
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
 
+   .other-pics,.center-pics{
+       float: right;
+   }
+
+   .intro-container{
+    display: flex;
+    flex-flow: row;
+margin-right: auto;
+margin-left: auto;
+    /* background-color: thistle; */
+   
+}
+.me-name{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+}
+
+.me-pic{
+    width:50%;
+    flex-flow: column;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 
 /*Media query beyond this point*/
 @media screen and (max-width: 869px){
+    .other-pics{
+        float: right;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3px;
+    }
+    .center-pics{
+        float: left;
+        
+        margin-right: 17px;
+
+    }
     
     .master-container{
         width: 100%;
@@ -196,38 +245,66 @@ margin-right: auto;
     }
     .castle-container{
         flex-flow: row;
-        width: 50%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
     .museum-container{
-        width: 50%;
+        width: 70%;
         flex-flow: row-reverse;
         margin-left: auto;
         margin-right: auto;
     }
     .cityhall-container{
-        width: 50%;
+        width: 70%;
         flex-flow: row-reverse;
         margin-left: auto;
         margin-right: auto;
     }
-    header{
-        flex-flow: column;
-    }
    
-    .intro-pre{
-        flex-flow: column;
-    }
+   
+   
     .st-master{
         flex-flow: column;
+        margin-left: auto;
+        margin-right: auto;
     }
     .headoftrade{
         margin-left: auto;
         margin-right: auto;
 
     }
+    
+    .me-pic{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .me-name{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
 
+    }
+    
+
+    .intro-container{
+       display: flex;
+       flex-flow: column;
+   
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .fave-content{
+
+    
+        width: 30%;
+        margin-left: auto;
+       margin-right: auto;
+    }
 }
 
 html{
@@ -242,25 +319,14 @@ h1{
     margin-right: 0%;
     padding-right: 0%;
 }
-.intro-pre{
-    display: flex;
-    
-    margin-left: auto;
-    margin-right: auto;
-}
-.me-name{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.me-pic{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
-h6{
+
+
+
+
+
+h4{
     text-align: center;
 }
 
@@ -280,8 +346,13 @@ h4{
     padding-right: 2%;
 }
 
-ul{
-    font-size: x-small;
+li{
+    font-size:small;
     margin-top: 0px;
     padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
