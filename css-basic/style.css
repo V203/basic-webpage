@@ -26,8 +26,8 @@ h2{
     
 }
 table,th,td{
-    width: 40%;
-    height: auto;
+   
+  
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10%;
@@ -39,11 +39,11 @@ table,th,td{
 body{
     box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.582);
     background-color: beige;
-    padding: 1em;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 img1-fave{
@@ -52,25 +52,7 @@ img1-fave{
 margin-right: auto;
        
 }
-.st-master{
-    display: flex;
-    flex-flow: row;
-    margin-left: 30%;
-    margin-right: 20%;
-    margin-bottom: 2em;
-}
 
-
-
-.fave-content{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-left: auto; 
-    
-}
 
 
 /*div contents of historical places*/
@@ -220,7 +202,27 @@ p{
     padding-right: 5px;
 }
 
-
+.higher-div{
+    display: flex;
+    flex-flow: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fave-city-img{
+    display: flex;
+    min-width: 50%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+fave-city-content{
+    min-width: 50%;
+    display: flex;
+    flex-flow: row;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(2, 87, 90);
+}
 
 /*Media query beyond this point*/
 @media screen and (max-width: 869px){
@@ -240,14 +242,12 @@ p{
     .master-container{
         width: 100%;
         flex-flow: column;
-        margin-left: auto;
-        margin-right: auto;
+   
     }
     .castle-container{
         flex-flow: row;
         width: 70%;
-        margin-left: auto;
-        margin-right: auto;
+     
     }
     .museum-container{
         width: 70%;
@@ -264,11 +264,7 @@ p{
    
    
    
-    .st-master{
-        flex-flow: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
+   
     .headoftrade{
         margin-left: auto;
         margin-right: auto;
@@ -298,14 +294,10 @@ p{
        margin-left: auto;
        margin-right: auto;
     }
-    .fave-content{
 
-    
-        width: 30%;
-        margin-left: auto;
-       margin-right: auto;
-    }
 }
+
+
 
 html{
     background-color: rgb(251, 250, 250);
