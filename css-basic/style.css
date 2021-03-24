@@ -205,16 +205,16 @@ p{
 .higher-div{
     display: flex;
     flex-flow: row;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    height: auto;
+   
 }
 .fave-city-img{
-    display: flex;
-    min-width: 50%;
     width: 50%;
-    margin-right: auto;
-    margin-left: auto;
+    height: auto;
+
 }
+
 fave-city-content{
     min-width: 50%;
     display: flex;
@@ -222,6 +222,7 @@ fave-city-content{
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(2, 87, 90);
+    margin: 10px 10px 10px 10px;
 }
 
 /*Media query beyond this point*/
@@ -293,6 +294,10 @@ fave-city-content{
    
        margin-left: auto;
        margin-right: auto;
+    }
+    .higher-div{
+        display: flex;
+        flex-flow: column;
     }
 
 }
