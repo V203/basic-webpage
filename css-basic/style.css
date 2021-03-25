@@ -25,19 +25,21 @@ h2{
     margin: 1em;
     
 }
-table,th,td{
+th,td{
    
-    /* width: 50%; */
+    width: 7%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
     border-style: ridge;
     border-collapse: collapse;
 }
-p{
-
+table{
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
-
 body{
     box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.582);
     background-color: beige;
@@ -241,7 +243,7 @@ p{
 .foreign-div{
     padding-top: 0px;
     margin-top: 0px;
-    max-width: 240px;
+    max-width: 890px;
     margin-left: auto;
     margin-right: auto;
     
@@ -256,7 +258,7 @@ p{
 
 
 /*Media query beyond this point*/
-@media screen and (max-width: 849px){
+@media screen and (max-width: 700px){
     .other-pics{
         float: right;
         margin-left: auto;
@@ -334,6 +336,8 @@ p{
     .fave-city-content{
         margin-right: auto;
         margin-left: auto;
+        width: 95%;
+        height: auto;
     }
     .fave-city-img{
         display: flex;
@@ -348,12 +352,18 @@ p{
         
         }
         .colo{
-            width: 150px;
-            margin-left: auto ;
-            margin-right: auto;
+            
             margin-bottom: 10px;
           
         }
+}
+
+@media screen and (max-width:390px){
+    .colo{
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
 
