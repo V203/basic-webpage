@@ -42,10 +42,10 @@ body{
     box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.582);
     background-color: beige;
 
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 img1-fave{
@@ -74,12 +74,15 @@ margin-right: auto;
     display :flex ;
     flex-flow: row;
 
+    margin-left: auto;
+    margin-right: auto;
 }
 .museum-content-div{
 
     display :flex ;
     flex-flow: row;
   
+    padding-right: 21px;
 }
 /*Below container's beyond this point*/
 .master-container{
@@ -90,7 +93,7 @@ margin-right: auto;
  
     margin-left: auto;
     margin-right: auto;
-    padding: 1px;
+    /*! padding: 1px; */
 
 }
 
@@ -214,6 +217,7 @@ p{
   
    
    
+    margin-right: auto;
 }
 .fave-city-img{
     width: 50%;
@@ -225,12 +229,12 @@ p{
 .fave-city-content{
     display: flex;
     flex-flow: row;
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 
-    background-color: rgb(2, 87, 90);
+   
  
 }
 
@@ -324,6 +328,8 @@ p{
     .higher-div{
         display: flex;
         flex-flow: column;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fave-city-content{
         margin-right: auto;
@@ -343,6 +349,9 @@ p{
         }
         .colo{
             width: 150px;
+            margin-left: auto ;
+            margin-right: auto;
+            margin-bottom: 10px;
           
         }
 }
@@ -351,7 +360,8 @@ p{
 
 html{
     background-color: rgb(251, 250, 250);
-    margin: 1em 1em  1em 1em;
+    margin: 1% 1% 1em 1em;
+    padding: 1em 1em 1em 1em;
 }
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -364,7 +374,10 @@ h1{
 }
 
 
-
+ul{
+    margin-left: -14px;
+    margin-right: 17px;
+}
 
 
 
