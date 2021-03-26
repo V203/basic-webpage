@@ -364,12 +364,14 @@ p{
         max-width: 100%;
         height: auto;
     }
-<<<<<<< HEAD
     .me-name{
         width: 87%;
         height: auto;
         
     }
+    .colo1{
+        max-width: 100%;
+        height: auto;}
    
     .intro-container{
         width: 100%;
@@ -380,11 +382,6 @@ p{
         height: auto;
     }
 }
-=======
-
-}
-
->>>>>>> caf7e930e6d5239f187bf43789097406b4c20309
 
 
 
