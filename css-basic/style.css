@@ -259,7 +259,7 @@ p{
 
 
 /*Media query beyond this point*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 799px){
     .other-pics{
         float: right;
         margin-left: auto;
